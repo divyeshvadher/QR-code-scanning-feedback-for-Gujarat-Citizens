@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Generate QR code</title>
+    <style>
+        /* :root {
+        --main-color:  #151C5A; 
+         }*/
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .box{
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="logo">
+                <h2>Brand.</h2>
+            </div>
+            <div class="search">
+                <input type="text" name="search" placeholder="search here">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+            <i class="fas fa-bell"></i>
+            <div class="user">
+                <img src="img/user.png" alt="">
+            </div>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="Admin.html">
+                        <i class="fas fa-th-large"></i>
+                        <div>Dashboard</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="ad_details.html">
+                        <i class="fas fa-chart-bar"></i>
+                        <div>Admin Details</div>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="QR_code_final.html">
+                        <i class="fas fa-chart-bar"></i>
+                        <div>Generate QR Code</div>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="result.html">
+                        <i class="fas fa-chart-bar"></i>
+                        <div>Result</div>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        
+        <div class="box">
+            <nav>
+                <ul>
+                    <br><br><br><br>
+                    <li><h2>E-mail :</h2></li>
+                    <li><input type="text" style="font-size: 30px;" placeholder="Enter your E-Mail"></li><br>
+                    <li><h2>Captcha : </h2></li>
+                    <li><input type="captcha" style="font-size: 30px;" placeholder="Enter your captcha"></li><br>
+                </ul>
+                <div class="search" >
+                    <button style="font-size: 20px; margin-left: 100px;"> Generate QR code </button>
+                </div>
+            </nav>
+        </div>
+</body>
+</html>

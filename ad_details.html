@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
+
+    <link rel="stylesheet" href="style1.css">
+    <title>Admin panel</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="logo">
+                <h2>ADMINISTRATION</h2>
+            </div>
+            <!-- <div class="search">
+                <input type="text" name="search" placeholder="search here">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div> -->
+            <i class="fas fa-bell"></i>
+            <div class="user">
+                <img src="abcpolice.jpg" alt="">
+            </div>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="Admin.html">
+                        <i class="fas fa-th-large"></i>
+                        <div>Dashboard</div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="ad_details.html">
+                        <i class="fas fa-chart-bar"></i>
+                        <div>Admin Details</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="QR_code_final.html">
+                        <i class="fas fa-chart-bar"></i>
+                        <div>Generate QR code</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="result.html">
+                        <i class="fas fa-chart-bar"></i>
+                        <div>Result</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="cards">
+            
+                <!-- <ul style="font-size:30px;">
+                    Admin details: <br>
+                    <li>ID number : 123456</li><br>
+                    <li>Admin name : abc</li><br>
+                    <li>Working as : Sub Inspector</li><br>
+                    <li>Location : Vavdi Police Station, Rajkot - 360004</li><br>
+                </ul> -->
+                <!--  -->
+                 <div class="card">
+                <select name="cities" id="cities" left="45px"size=".5px"  width="900px"; class="nn";>
+                    <option value="opt">Select your city</option>
+                    <option value="Ahemdabad">Ahemdabad</option>
+                    <option value="Gandhinagar">Gandhinagar</option>
+                    <option value="Bhavnagar">Bhavnagar</option>
+                    <option value="Rajkot">Rajkot</option>
+                    <option value="Surat">Surat</option>
+                  </select> 
+        
+                  
+            </div>
+            </div>
+            <table border="1pxsolid" cellspacing="20px", width=85%, text-align=centre, padding="10px", bgcolor="lightpink"">
+                <tr>
+                    <th bgcolor="sky blue">
+                        ID
+                    </th>
+                    <th bgcolor="sky blue">
+                        NAME
+                    </th>
+                    <Th bgcolor="sky blue">
+                        CITY
+                    </Th>
+                    <Th bgcolor="sky blue">
+                        EMAIL
+                    </Th>
+                </tr>
+                <tr>
+                   <td>P-ID 001</td>
+                    <td>Harry Patel</td>
+                    <td>rajkot</td>
+                    <td>harry01@gmail.com</td>
+                 </tr>
+                 <tr>
+                    <td>P-ID 002</td>
+                     <td>Deny Shah</td>
+                     <td>Ahmedabad</td>
+                     <td>deny99@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 003</td>
+                     <td>john Raval</td>
+                     <td>Surat</td>
+                     <td>john65@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 004</td>
+                     <td>Michael Sharma</td>
+                     <td>Bhavnagar</td>
+                     <td>mich77@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 005</td>
+                     <td>David Panchal</td>
+                     <td>Gandhinagar</td>
+                     <td>daviid11@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 006</td>
+                     <td>Arin Saksena</td>
+                     <td>Gandhinagar</td>
+                     <td>arin00@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 007</td>
+                     <td>Divya Patel</td>
+                     <td>Gandhinagar</td>
+                     <td>divya41@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 008</td>
+                     <td>Dolly Rajput</td>
+                     <td>Gandhinagar</td>
+                     <td>dolliee980@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 009</td>
+                     <td>Norin Sharma</td>
+                     <td>Gandhinagar</td>
+                     <td>norin17@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 110</td>
+                     <td>Hellina Patel</td>
+                     <td>Gandhinagar</td>
+                     <td>hellina80@gmail.com</td>
+                  </tr>
+                
+            </table>
+            </div>      
+            <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+            <script src="chart1.js"></script>
+            <script src="chart2.js"></script> -->
+            <table>
+                <tr>
+                    <th>
+                        ID
+                    </th>
+                    <th>
+                        NAME
+                    </th>
+                    <Th>
+                        CITY
+                    </Th>
+                    <Th>
+                        EMAIL
+                    </Th>
+                </tr>
+                <tr>
+                   <td>P-ID 001</td>
+                    <td>Harry Patel</td>
+                    <td>rajkot</td>
+                    <td>harry01@gmail.com</td>
+                 </tr>
+                 <tr>
+                    <td>P-ID 002</td>
+                     <td>Deny Shah</td>
+                     <td>Ahmedabad</td>
+                     <td>deny99@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 003</td>
+                     <td>john Raval</td>
+                     <td>Surat</td>
+                     <td>john65@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 004</td>
+                     <td>Michael Sharma</td>
+                     <td>Bhavnagar</td>
+                     <td>mich77@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 005</td>
+                     <td>David Panchal</td>
+                     <td>Gandhinagar</td>
+                     <td>daviid11@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 006</td>
+                     <td>Arin Saksena</td>
+                     <td>Gandhinagar</td>
+                     <td>arin00@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 007</td>
+                     <td>Divya Patel</td>
+                     <td>Gandhinagar</td>
+                     <td>divya41@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 008</td>
+                     <td>Dolly Rajput</td>
+                     <td>Gandhinagar</td>
+                     <td>dolliee980@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 009</td>
+                     <td>Norin Sharma</td>
+                     <td>Gandhinagar</td>
+                     <td>norin17@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td>P-ID 110</td>
+                     <td>Hellina Patel</td>
+                     <td>Gandhinagar</td>
+                     <td>hellina80@gmail.com</td>
+                  </tr>
+                
+            </table>
+        
+                
+</body>
+
+</html>
